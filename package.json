@@ -1,0 +1,13 @@
+{
+  "name": "marksloboda-site",
+  "version": "0.1.0",
+  "private": true,
+  "description": "marksloboda.com — personal site",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
