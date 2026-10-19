@@ -49,6 +49,6 @@ http.createServer(function (req, res) {
         });
         fs.createReadStream(file).pipe(res);
     });
-}).listen(PORT, function () {
-    console.log('marksloboda.com listening on ' + PORT);
+}).listen(PORT, '0.0.0.0', function () {
+    console.log('marksloboda.com listening on 0.0.0.0:' + PORT + ' (PORT env=' + (process.env.PORT || 'unset') + ')');
 });
